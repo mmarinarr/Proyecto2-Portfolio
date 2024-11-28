@@ -14,12 +14,21 @@
   }
 }
 
-.home > h1 {
+.container{
+  display: flex;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+#info > h1 {
   font-size: 5.5rem;
-  background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+  font-weight: bold;
+  background: linear-gradient(to right, #258343 0%, #499b5c 50%, #96dd9a 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .home > a {
@@ -29,7 +38,14 @@
 .home > a:hover{
   text-decoration: underline;
   font-size: 1.23rem;
-  color: #9845e8;
+  color: var(--highlight);
+}
+
+.container > img{
+  width: 30%;
+  height: 30rem;
+  border-radius: 20rem;
+  object-fit: cover;
 }
 
   

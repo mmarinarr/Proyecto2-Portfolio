@@ -10,10 +10,10 @@ export const changeTheme = () => {
 
 export const changeText = () => {
   const themeBtn = document.querySelector("#themeBtn");
-  if (themeBtn.innerText === "☀") {
-    themeBtn.innerText = "☾";
-  } else {
+  if (themeBtn.innerText === "☾") {
     themeBtn.innerText = "☀";
+  } else {
+    themeBtn.innerText = "☾";
   }
 };
 
@@ -31,7 +31,7 @@ export const Navbar = () => `
         <a href="#" id="aboutlink">Sobre mi</a>
     </li>
     <li>
-        <button id="themeBtn">☀</button>
+        <button id="themeBtn">☾</button>
     </li>
 </ul>
 </nav>

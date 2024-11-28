@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@100..900&display=swap');
 
 :root {
-  --primary-dark: whitesmoke;
-  --bg-dark: #111111;
-  --primary-light: #111111;
-  --bg-light: whitesmoke;
-  --highlight: #6cace4;
+  --primary-dark: #111111;
+  --bg-dark: rgb(231, 231, 231);
+  --primary-light: rgb(231, 231, 231);
+  --bg-light: #111111;
+  --highlight: #5eb874;
   --divider: rgb(164, 164, 164);
 }
 

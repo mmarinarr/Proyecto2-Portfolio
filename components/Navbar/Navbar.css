@@ -13,6 +13,10 @@ nav {
     }
   }
   
+  nav > h3{
+    color: var(--highlight);
+  }
+
   nav > ul {
     display: flex;
     gap: 3rem;
