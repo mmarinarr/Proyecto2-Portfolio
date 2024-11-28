@@ -12,9 +12,9 @@ export const projects = [
     title: "Segundo proyecto",
     description: "Este proyecto es un portfolio hecho mediante VITE",
     image:
-      "/proyecto2def.png",
+      "/mockup2.png",
     tech: ["HTML5", "CSS3", "JavaScript", "VITE"],
-    github: "http://github.com/myuser/proyecto2",
+    github: "https://github.com/mmarinarr/Proyecto2-Portfolio",
     link: "www.proyecto1.com",
   },
   {

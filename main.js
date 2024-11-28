@@ -21,4 +21,6 @@ Home();
 
 changeTheme();
 
+
 footer.insertAdjacentHTML("beforebegin", Divider());
+

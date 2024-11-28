@@ -11,9 +11,13 @@ export const Home = () => {
     <p>Hola! Mi nombre es</p>
     <h1>Marina Moreno</h1>
     <p>Soy una estudiante cursando actualmente un Máster en Desarrollo Full-Stack y un ciclo de Desarrollo de Aplicaciones Multiplataforma (DAM). Resido en Barcelona desde que nací aquí, y estoy en busca de oportunidades y nuevos retos que me hagan crecer y mejorar como programadora.</p>
-     </div>
-    <img src="./public/marina2.jpg">
-    </div>
     <a href="mailto:marina10paula5@gmail.com">Contacta conmigo →</a>
+    </div>
+    <div id="image">
+    <p>Pasa el ratón por encima para conocerme mejor!</p>
+    <img src="./public/marina2.jpg">
+    <video src="./marina3.mov" muted loop autoplay id="myVideo"></video>
+    </div>
+    </div>
     </section>`;
 };
