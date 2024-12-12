@@ -16,7 +16,7 @@ export const Home = () => {
     <div id="image">
     <p>Pasa el ratón por encima para conocerme mejor!</p>
     <img src="./public/marina2.jpg">
-  
+    <video src="./marina3.mp4" muted loop autoplay id="myVideo"></video>
     </div>
     </div>
     </section>`;
